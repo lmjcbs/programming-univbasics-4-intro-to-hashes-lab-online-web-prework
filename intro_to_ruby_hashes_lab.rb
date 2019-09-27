@@ -16,7 +16,7 @@ end
 
 def id_generator
   new_hash = {
-    4 => "hello"
+    :id => "hello"
   }
 end
 
