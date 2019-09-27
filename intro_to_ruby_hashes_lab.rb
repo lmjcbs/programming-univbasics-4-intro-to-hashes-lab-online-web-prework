@@ -4,7 +4,7 @@ end
 
 def my_hash
   new_hash {
-    symbol: "value"
+    symbol: "value",
   }
 end
 
