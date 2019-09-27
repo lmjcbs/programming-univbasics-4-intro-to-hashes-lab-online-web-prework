@@ -31,9 +31,9 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if hash[key] do
+  if hash[key]
     hash[key] += 1
-  elsif
+  else
     hash[key] = 1
   end
   # given a hash an a key as parameters, return an updated hash
